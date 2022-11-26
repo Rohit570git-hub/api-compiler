@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(218, 214, 214);
+  }
+  h2 {
+    padding-right: 50px;
+   
+  }
+  #container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 250px 0 150px;
+  }
+  
+  #heading{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 0;
+    align-items: center;
+    
+    
+  }
+  #languageSelector{
+   
+    background-color: rgb(172, 172, 167);
+   justify-content: space-around;
+  }
+  
+  #submit {
+    margin: 10px;
+    display: flex;
+  }
+  
+  #submitButton {
+    padding: 5px;
+    color: black;
+    background-color: rgb(172, 172, 167);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 22px;
+    height: 100%;
+    width: 15%;
+    margin: auto 10px auto 0px;
+  }
+  #outputArea {
+    background-color: black;
+    color: white;
+    height: 100px;
+    border:5px solid dark black;
+    
+    
+  
+  }
+  textarea{
+     margin: 0;
+    padding: 0;
+    resize: none;
+    width: 100%;
+    height:65vh;
+    border: 2px solid rgb(44, 25, 25);
+    font-size: 16px;
+    font-family: sans-serif;
+   margin-bottom: 10px;
+  }
+  
+  #submitButton:hover {
+    background-color: lightyellow;
+  }
+
+  .loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    border-top: 16px solid rgb(201, 244, 93);
+    border-right: 16px solid green;
+    border-bottom: 16px solid red;
+    border-left: 16px solid pink;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
